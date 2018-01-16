@@ -1,0 +1,23 @@
+{
+	"name": "noframework",
+	"description": "a no php-framework project",
+	"keywords": ["Your keyword", "Another keyword"],
+	"license": "MIT",
+	"authors": [
+	    {
+		   "name": "Kristan Smith",
+		   "email": "your@email.com",
+		   "role": "Creator / Main Developer"
+	    }
+	],
+	"require": {
+	    "php": ">=7.0.0",
+		"filp/whoops": "^2.1",
+		"patricklouys/http": "^1.4"
+	},
+	"autoload": {
+	    "psr-4": {
+		   "noframework\\": "src/"
+	    }
+	}
+ }
